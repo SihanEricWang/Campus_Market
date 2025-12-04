@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>校园闲置市场 - 首页</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  
+  <!-- Supabase SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+  <header>
+    <h1>校园闲置市场</h1>
+    <a href="login.html" class="button">登录</a>
+    <a href="publish.html" class="button">发布物品</a>
+  </header>
+
+  <main class="container">
+    <h2>最新发布</h2>
+
+    <div id="items-list" class="grid"></div>
+  </main>
+
+  <script src="assets/js/supabaseClient.js"></script>
+  <script src="assets/js/items.js"></script> <!-- 下一步我会写 -->
+</body>
+</html>
